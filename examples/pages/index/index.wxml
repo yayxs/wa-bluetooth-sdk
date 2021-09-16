@@ -1,0 +1,7 @@
+
+<view>
+    <button type="primary" bindtap="handleTestNpm">测试npm库</button>
+</view>
+<view>
+    <button type="primary" bindtap="handleClick">扫描连接</button>
+</view>

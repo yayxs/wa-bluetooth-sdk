@@ -1,0 +1,28 @@
+{
+  "name": "rollup-bluetooth-sdk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/wa-bluetooth-sdk.cjs.js",
+  "module": "dist/wa-bluetooth-sdk.esm.js",
+  "browser": "dist/wa-bluetooth-sdk.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "eslint": "^7.32.0",
+    "rollup": "^2.56.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
