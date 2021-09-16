@@ -1,17 +1,20 @@
 {
-  "name": "rollup-bluetooth-sdk",
-  "version": "0.0.1",
-  "description": "",
-  "main": "dist/wa-bluetooth-sdk.cjs.js",
-  "module": "dist/wa-bluetooth-sdk.esm.js",
-  "browser": "dist/wa-bluetooth-sdk.umd.js",
+  "name": "wa-bluetooth-sdk",
+  "version": "0.0.3",
+  "description": "WeChat and Alipay bluetooth-sdk miniprogram js library",
+  "miniprogram": "miniprogram_dist",
+  "main": "miniprogram_dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yayxs/wa-bluetooth-sdk.git"
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",

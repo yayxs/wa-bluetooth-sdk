@@ -1,13 +1,15 @@
 // index.js
 // 获取应用实例
-const BigNumber = require('bignumber.js');  //引用
-// const app = getApp()
 
+const {testNpm } = require('wa-bluetooth-sdk')
+const dayjs = require('dayjs')
 Page({
   data: {},
-  onLoad() {},
+  onLoad() {
+    console.log(dayjs().format('YYYY-MM-DD'))
+  },
   handleTestNpm(){
-    console.log(BigNumber(2).plus(10))  //使用
+    testNpm()
   },
   handleClick() {
     console.log(123)

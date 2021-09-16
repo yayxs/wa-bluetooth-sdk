@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@vant/weapp": "^1.8.5",
-    "bignumber.js": "^9.0.1"
+    "dayjs": "^1.10.7",
+    "wa-bluetooth-sdk": "0.0.3"
   }
 }
